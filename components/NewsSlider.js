@@ -107,7 +107,7 @@ export default function NewSlider({ isRTL = false }) {
                 )}
             </div>
 
-            <Link href={getNavLink("products")} className='show-more-btn'>{pageContent.showMore}</Link>
+            <Link href={getNavLink("news")} className='show-more-btn'>{pageContent.showMore}</Link>
 
         </section>
     );
