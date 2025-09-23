@@ -13,7 +13,7 @@ export default function ListPage({ pageKey, data, navBasePath }) {
   const transformedData = data.map(item => ({
     id: item.id,
     title: cleanText(item.title[currentLanguage] || item.title['ar'] || ''),
-    content: cleanText(item.excerpt[currentLanguage] || item.excerpt['ar'] || ''),
+    content: cleanText(item.content[currentLanguage] || item.excerpt['ar'] || ''),
     image: item.images?.[0] || '/placeholder.jpg',
     date: item.created_at ? new Date(item.created_at).toLocaleDateString() : ''
   }));
