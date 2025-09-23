@@ -1,7 +1,7 @@
 
 const images = {
     quailty: {
-        iso: '/images/iso.png',
+        iso: '/images/ISO.png',
         sampleImage: '/images/quality.png',
         partnersLogo: {
             c1: '/images/1.png',
