@@ -189,6 +189,7 @@
     .text-image-item .show-more-btn {
         padding: 4px 8px;
         font-size: 1rem;
+        min-width: 60px;
     }
 
 
@@ -378,6 +379,10 @@
 
     [dir="rtl"] .footer-nav-list {
         text-align: right;
+    }
+
+    .text-image-page .text-content p {
+        font-size: 1rem;
     }
 
 
