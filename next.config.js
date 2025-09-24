@@ -4,7 +4,7 @@ const nextConfig = {
   reactStrictMode: true,
   async rewrites() {
     return [
-      { source: '/عن-ابار-حائل', destination: '/about?lang=ar' },
+      { source: '/عن-آبار-حائل', destination: '/about?lang=ar' },
       {
         source: '/المسؤولية-الاجتماعية/:id',
         destination: '/social-responsibility/:id'

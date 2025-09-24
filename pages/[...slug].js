@@ -15,7 +15,7 @@ export default function SlugPage() {
   switch (slug) {
     case 'الجودة':
       return <Quality />;
-    case 'عن-ابار-حائل':
+    case 'عن-آبار-حائل':
       return <About />;
     case 'المسؤولية-الاجتماعية':
       return <SocialResponsibility />;

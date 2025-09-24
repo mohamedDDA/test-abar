@@ -54,7 +54,7 @@ export const siteConfig = {
     },
     ar: {
       home: "/",
-      about: "/عن-ابار-حائل",
+      about: "/عن-آبار-حائل",
       quality: "/الجودة",
       certification: "/الشهادات",
       socialResponsibility: "/المسؤولية-الاجتماعية",
