@@ -9,7 +9,7 @@ export const siteConfig = {
     en: "Premium water brand from Hail, Saudi Arabia",
     ar: "علامة مياه مميزة من حائل، المملكة العربية السعودية"
   },
-  
+
   // Contact information
   contact: {
     phone: "920024455",
@@ -19,16 +19,16 @@ export const siteConfig = {
       ar: "حائل، المملكة العربية السعودية"
     }
   },
-  
+
   // Social media links
   social: {
     twitter: "https://x.com/abarhail",
     instagram: "https://www.instagram.com/abarhail",
     linkedin: "https://linkedin.com/company/abarhail",
     facebook: "https://facebook.com/abarhail",
-    tiktok:"https://www.tiktok.com/@abarhail"
+    tiktok: "https://www.tiktok.com/@abarhail"
   },
-  
+
   // SEO defaults
   seo: {
     title: {
@@ -40,7 +40,7 @@ export const siteConfig = {
       ar: "مياه، مياه مميزة، حائل، السعودية، مياه طبيعية"
     }
   },
-  
+
   // URLs for different languages (SEO-friendly)
   urls: {
     en: {
@@ -69,17 +69,3 @@ export const siteConfig = {
   rtlLanguages: ['ar']
 };
 
-// CMS Configuration (for future implementation)
-export const cmsConfig = {
-  contentTypes: ['hero', 'textImage', 'page', 'news', 'product', 'seo'],
-  editableFields: {
-    text: ['title', 'description', 'content'],
-    media: ['image', 'video'],
-    seo: ['metaTitle', 'metaDescription', 'keywords']
-  },
-  apiEndpoints: {
-    content: '/api/cms/content',
-    media: '/api/cms/media',
-    seo: '/api/cms/seo'
-  }
-};
