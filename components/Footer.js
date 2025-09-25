@@ -54,16 +54,19 @@ const Footer = () => {
 
 
             <div className="footer-social">
-              <span className="social-handle">@ABARHAIL</span>
+
               <div className="social-links">
                 <a href={siteConfig.social.twitter} target="_blank" rel="noopener noreferrer" className="social-link">
                   <i className="fa-brands fa-x-twitter"></i>
+                  <span>@ABARHAIL</span>
                 </a>
                 <a href={siteConfig.social.tiktok} target="_blank" rel="noopener noreferrer" className="social-link">
                   <i className="fab fa-tiktok"></i>
+                  <span>@ABARHAIL</span>
                 </a>
                 <a href={siteConfig.social.instagram} target="_blank" rel="noopener noreferrer" className="social-link">
                   <i className="fab fa-instagram"></i>
+                  <span>@ABARHAIL</span>
                 </a>
               </div>
             </div>

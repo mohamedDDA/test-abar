@@ -688,10 +688,12 @@ body {
   font-size: 2rem;
   font-weight: bolder;
 }
+
 .text-image-page .text-content p {
   font-weight: lighter;
   display: -webkit-box;
-  -webkit-line-clamp: 5; /* number of lines before truncating */
+  -webkit-line-clamp: 5;
+  /* number of lines before truncating */
   -webkit-box-orient: vertical;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -789,7 +791,7 @@ body {
 
 
 
-  
+
 }
 
 .image-content {
@@ -1485,7 +1487,8 @@ body {
   transition: 0.3s;
 }
 
-.contact-text:hover {
+.contact-text:hover,
+.social-link span:hover {
   transform: scale(1.1);
 }
 
@@ -1511,6 +1514,17 @@ body {
 }
 
 .social-link {
+
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+}
+
+
+.social-link i {
+  font-size: 18px;
   width: 45px;
   height: 45px;
   background: var(--color-white);
@@ -1519,20 +1533,20 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  text-decoration: none;
-  transition: all 0.3s ease;
+  transition: 0.3s;
 }
 
-.social-link:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+.social-link span {
+  color: var(--color-white);
+  font-size: 1.2rem;
+  transition: 0.3s;
 }
 
-.social-link i {
-  font-size: 18px;
+[dir="rtl"] .social-link span {
+  direction: ltr;
 }
 
-.social-link:hover,
+.social-link i:hover,
 .contact-icon:hover i {
   background-color: var(--color-purple-dark);
   color: var(--color-border);
