@@ -16,9 +16,6 @@ export default function ProductCard({ product }) {
                 />
             </div>
 
-            <span className="product-label">
-                {product.label[currentLanguage]}
-            </span>
 
             <h3 className="product-title">
                 {product.title[currentLanguage]}

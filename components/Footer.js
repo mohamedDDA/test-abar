@@ -92,7 +92,7 @@ const Footer = () => {
               <a href="https://play.google.com/store/apps/details?id=com.abarhailwater&pcampaignid=web_share" target='_blank' className="app-button google-play">
                 <img src="/images/google-play.png" alt="" />
               </a>
-              <a href="https://apps.apple.com/us/app/abar-hail-water-%D9%85%D9%8A%D8%A7%D9%87-%D8%A2%D8%A8%D8%A7%D8%B1-%D8%AD%D8%A7%D8%A6%D9%84/id1539315652" target='_blank' className="app-button">
+              <a href="https://apps.apple.com/sa/app/abarhail/id6739586910" target='_blank' className="app-button">
                 <img src="/images/apple.png" alt="" />
               </a>
             </div>

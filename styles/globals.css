@@ -1276,7 +1276,7 @@ body {
   border-radius: 16px;
   border: 1px solid var(--color-purple-dark);
   justify-content: center;
-  padding-top: 50px;
+
   transition: 0.3s;
 }
 
@@ -1292,23 +1292,6 @@ body {
   transform: scale(1.05);
 }
 
-
-.product-card .product-label {
-  position: absolute;
-  top: 20px;
-  left: 50%;
-  transform: translate(-50%);
-  background-color: var(--color-purple-dark);
-  width: 80px;
-  padding: 2px 0;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-size: 0.9rem;
-  font-weight: 500;
-  border-radius: 4px;
-  color: var(--color-white);
-}
 
 .product-card .product-title {
   font-size: 1.2rem;
