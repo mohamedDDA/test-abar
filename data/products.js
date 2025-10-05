@@ -36,12 +36,12 @@ export const productsData = [
     },
     {
         id: 19,
-        title: { ar: "24 × 250 مل", en: "24 × 250ml" },
+        title: { ar: "24 × 200 مل", en: "24 × 200ml" },
         image: "/images/products/product-19.png",
     },
     {
         id: 20,
-        title: { ar: "24 × 600 مل", en: "24 × 600ml" },
+        title: { ar: "24 × 330 مل", en: "24 × 330ml" },
         image: "/images/products/product-20.png",
     },
     {
