@@ -11,7 +11,7 @@ export const productsData = [
     },
     {
         id: 3,
-        title: { ar: "250 مل عبوة", en: "250ml bottle" },
+        title: { ar: "200 مل عبوة", en: "200ml bottle" },
         image: "/images/products/product-3.png",
     },
         {
